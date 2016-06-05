@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>div模拟下拉菜单</title>
+	<style type="text/css">
+		body,ul,li{ margin:0; padding:0; font-size:13px;}
+		ul,li{list-style:none;}
+
+		#divselect{width:186px; margin:80px auto; position:relative; z-index:10000;}
+		#divselect cite{width:150px; height:24px;line-height:24px; display:block; color:#807a62; cursor:pointer;font-style:normal;
+			padding-left:4px; padding-right:30px; border:3px solid #333333;}
+		#divselect ul{width:184px;border:1px solid #333333; background-color:#ffffff; position:absolute; z-index:20000; margin-top:-1px; display:none;}
+		#divselect ul li{height:24px; line-height:24px;}
+		#divselect ul li a{display:block; height:24px; color:#333333; text-decoration:none; padding-left:10px; padding-right:10px;}
+		#divselect ul li a:hover{background-color:#CCC;}
+		p{margin:10px auto; width:920px;}
+		#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+		#n a{ padding:0 4px; color:#333}
+	</style>
+	<script type="text/javascript" src="../js/jquery-1.8.1.js"></script>
+	<script type="text/javascript" src="divselect.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$.divselect("#divselect","#inputselect");
+		});
+	</script>
+</head>
+<body>
+<form action="" method="post">
+	<div id="divselect"value="">
+		<cite>请选择特效分类</cite>
+		<ul>
+			<li><a href="javascript:;" selectid="1">导航菜单</a></li>
+			<li><a href="javascript:;" selectid="2">广州</a></li>
+			<li><a href="javascript:;" selectid="3">上海</a></li>
+			<li><a href="javascript:;" selectid="4">深圳</a></li>
+			<li><a href="javascript:;" selectid="5">厦门</a></li>
+		</ul>
+	</div>
+	<input name="" type="hidden" value="" id="inputselect"/>
+</form>
+
+</body>
+</html>
