@@ -6,6 +6,9 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.*;
 
+/**
+ * java疯狂讲义的一些test
+ */
 public class Main {
 
     public static void main(String[] args) {
