@@ -1,3 +1,5 @@
 本周学好八大排序算法中的比较好的算法以及具体的实现的理解，顺便学习高并发的conCurrentHashMap的应用场景
 1、数据结构的汇总网站讲的一般般
 http://student.zjzk.cn/course_ware/data_structure/web/guangyibiao/guangyibiao.htm
+2、从这个文章，我们可以很明显看出来交换的过程，真是自己的问题，这么久没理解号，其实交换了tmp和最小的，接着是需要换回来的
+https://zhidao.baidu.com/question/48068982.html

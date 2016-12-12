@@ -1,7 +1,5 @@
-import com.sun.org.apache.xpath.internal.SourceTree;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+package test;
 
-import java.awt.print.Book;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.*;
@@ -9,7 +7,7 @@ import java.util.*;
 /**
  * java疯狂讲义的一些test
  */
-public class Main {
+public class crazyTestDemo1 {
 
     public static void main(String[] args) {
         // test1();
@@ -18,7 +16,6 @@ public class Main {
         test4();
         test5();
         test6();
-        test7();
 
     }
 
