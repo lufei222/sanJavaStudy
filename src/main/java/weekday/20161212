@@ -6,3 +6,7 @@ https://zhidao.baidu.com/question/48068982.html
 
 3、一致性非锁定读与一致性锁定读
 https://my.oschina.net/andylucc/blog/804229
+
+4、MySQL中SELECT+UPDATE处理并发更新问题解决方案分享
+http://www.jb51.net/article/50103.htm
+5、百度   并发一定要加for update吗
