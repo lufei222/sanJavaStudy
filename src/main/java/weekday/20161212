@@ -3,3 +3,6 @@
 http://student.zjzk.cn/course_ware/data_structure/web/guangyibiao/guangyibiao.htm
 2、从这个文章，我们可以很明显看出来交换的过程，真是自己的问题，这么久没理解号，其实交换了tmp和最小的，接着是需要换回来的
 https://zhidao.baidu.com/question/48068982.html
+
+3、一致性非锁定读与一致性锁定读
+https://my.oschina.net/andylucc/blog/804229
