@@ -14,4 +14,7 @@ http://www.jb51.net/article/50103.htm
 6、桶排序代码百度文库https://zhidao.baidu.com/question/2269464578228215428.html
 桶排序其实就是用一个一位数组记录每个数出现的次数，然后遍历输出重新赋值到新的数组
 7、重温堆排序http://wenku.baidu.com/link?url=vCI8AcwLZ9SXWLTC7_ZCk8QMqzZkJeWlx9GWCggg7Ffs3bmPbDSrQCHa7V1Qaf0-mBrRLbt9cyQ26i05elhXZLPzr1T05MuFCLArW8UitlO
+
 8、加深对堆排序的理解http://www.cnblogs.com/acBool/p/4842151.html
+
+9、堆排序知乎https://www.zhihu.com/question/20842649
