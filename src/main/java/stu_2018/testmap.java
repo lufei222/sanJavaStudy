@@ -3,7 +3,7 @@ package stu_2018;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ci_map {
+public class testmap {
 
     public static void main(String[] args) {
         Map<String,String> cusHashMap =new HashMap<String, String>();
