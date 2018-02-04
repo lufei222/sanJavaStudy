@@ -5,7 +5,7 @@ import java.net.UnknownHostException;
 import java.util.*;
 
 /**
- * java疯狂讲义的一些test
+ * java路猫驴帽陆虏脪氓碌脛脪禄脨漏test
  */
 public class crazyTestDemo1 {
 
@@ -46,17 +46,17 @@ public class crazyTestDemo1 {
 
     public static void test2() {
         Collection books = new HashSet();
-        books.add("疯狂java讲义");
-        books.add("基于j2ee的ajax企业应用实战");
-        books.add("Struts2权威指南");
+        books.add("路猫驴帽java陆虏脪氓");
+        books.add("禄霉脫脷j2ee碌脛ajax脝贸脪碌脫娄脫脙脢碌脮陆");
+        books.add("Struts2脠篓脥镁脰赂脛脧");
         Iterator it = books.iterator();
         while (it.hasNext()) {
             String book = (String) it.next();
             System.out.println(book);
-            if (book.equals("Struts2权威指南")) {
+            if (book.equals("Struts2脠篓脥镁脰赂脛脧")) {
                 it.remove();
             }
-            book = "测试字符串";
+            book = "虏芒脢脭脳脰路没麓庐";
         }
         System.out.println(books);
 
@@ -71,7 +71,7 @@ public class crazyTestDemo1 {
         nums.add(-9);
         System.out.println(nums);
         TreeSet TS = new TreeSet();
-        TS.add(new String("STRUCTS权威指南"));
+        TS.add(new String("STRUCTS脠篓脥镁脰赂脛脧"));
         //   TS.add(new Date());
         System.out.println(TS.first());
     }
@@ -87,33 +87,33 @@ public class crazyTestDemo1 {
 
     public static void test5() {
         List books = new ArrayList();
-        books.add(new String("轻量级J2EE企业应用实践"));
-        books.add(new String("Struts2权威指南)"));
-        books.add(new String("基于J2EE的Ajax宝典"));
+        books.add(new String("脟谩脕驴录露J2EE脝贸脪碌脫娄脫脙脢碌录霉"));
+        books.add(new String("Struts2脠篓脥镁脰赂脛脧)"));
+        books.add(new String("禄霉脫脷J2EE碌脛Ajax卤娄碌盲"));
         System.out.println(books);
-        books.add(1, new String("ROR敏捷开发最佳实践"));
+        books.add(1, new String("ROR脙么陆脻驴陋路垄脳卯录脩脢碌录霉"));
         for(int i=0;i<books.size();i++){
             System.out.println(books.get(i));
         }
-        //删除第san个元素
+        //脡戮鲁媒碌脷san赂枚脭陋脣脴
         books.remove(2);
         System.out.println(books);
-        //判断指定元素以在list集合中的位置：输出1，表明位于第二位
-        System.out.println(books.indexOf((new String("ROR敏捷开发最佳实践"))));
-        //将第二个元素替换成新的字符串对象
-        books.set(1, new String("Struts2权威指南"));
+        //脜脨露脧脰赂露篓脭陋脣脴脪脭脭脷list录炉潞脧脰脨碌脛脦禄脰脙拢潞脢盲鲁枚1拢卢卤铆脙梅脦禄脫脷碌脷露镁脦禄
+        System.out.println(books.indexOf((new String("ROR脙么陆脻驴陋路垄脳卯录脩脢碌录霉"))));
+        //陆芦碌脷露镁赂枚脭陋脣脴脤忙禄禄鲁脡脨脗碌脛脳脰路没麓庐露脭脧贸
+        books.set(1, new String("Struts2脠篓脥镁脰赂脛脧"));
         System.out.println(books);
         System.out.println(books.subList(1, 2));
 
     }
     public static void test6(){
-        //java如何获取ip地址？
+        //java脠莽潞脦禄帽脠隆ip碌脴脰路拢驴
         try {
             InetAddress addr = InetAddress.getLocalHost();
             String localname=addr.getHostName();
             String localip=addr.getHostAddress();
-            System.out.println("本机名称是："+ localname);
-            System.out.println("本机的ip是 ："+localip);
+            System.out.println("卤戮禄煤脙没鲁脝脢脟拢潞"+ localname);
+            System.out.println("卤戮禄煤碌脛ip脢脟 拢潞"+localip);
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
