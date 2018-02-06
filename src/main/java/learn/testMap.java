@@ -24,4 +24,10 @@ public class testMap {
         float average[];
 
     }
+    void run1(){
+run2();
+    }
+    static void run2(){
+//run1();
+    }
 }

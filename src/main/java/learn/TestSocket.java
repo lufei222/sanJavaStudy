@@ -21,6 +21,7 @@ public class TestSocket {
     static class Test1 extends Thread{
         private ServerSocket server = null;
         public Test1(){
+            new Socket();
             try {
                 server=new ServerSocket(3333);
             } catch (IOException e) {

@@ -1,9 +1,17 @@
 package learn;
 
+import java.util.concurrent.locks.Condition;
+
 public class TestByte {
 
     public static void main(String[] args) {
         test();
+
+
+    }
+    static{
+        final String aa;
+
     }
         public static void add(Byte b)
         {
@@ -11,6 +19,8 @@ public class TestByte {
         }
         public static void test()
         {
+//            Object.wait();
+//            Condition.await();
             Byte a = 127;
             Byte b = 127;
             add(++a);
@@ -19,6 +29,7 @@ public class TestByte {
             System.out.print(b + "");
         }
         public TestByte(){
+            final String aa;
 
         }
 
