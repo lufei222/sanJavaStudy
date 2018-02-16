@@ -9,6 +9,7 @@ public class testMap {
         java.util.HashMap map=new java.util.HashMap();
         map.put("name",null);
         map.put("name","Jack");
+        map.containsKey("name");
         System.out.println(map.size());
         System.out.println(map.get("name"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
