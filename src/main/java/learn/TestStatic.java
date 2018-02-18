@@ -28,5 +28,6 @@ public class TestStatic {
         TestStatic st2= new TestStatic(2);
         System.out.println("st2");
         st2.print();
+
     }
 }
