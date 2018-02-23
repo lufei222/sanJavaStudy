@@ -37,6 +37,20 @@ public class TestSocket {
             DataInputStream dis =null;
             DataOutputStream dos=null;
             String str="";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             while(true){
                 try {
                     clientSocket=server.accept();
